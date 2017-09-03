@@ -1,0 +1,109 @@
+#gridPanel {
+  width: 580px;
+  height: 580px;
+  background: #bbada0;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+}
+#gridPanel > div {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 6px;
+  background: #ccc0b3;
+  font-size: 60px;
+  text-align: center;
+}
+#gridPanel > .n2 {
+  background-color: #eee3da;
+}
+#gridPanel > .n4 {
+  background-color: #ede0c8;
+}
+#gridPanel > .n8 {
+  background-color: #f2b179;
+}
+#gridPanel > .n16 {
+  background-color: #f59563;
+}
+#gridPanel > .n32 {
+  background-color: #f67c5f;
+}
+#gridPanel > .n64 {
+  background-color: #f65e3b;
+}
+#gridPanel > .n128 {
+  background-color: #edcf72;
+}
+#gridPanel > .n256 {
+  background-color: #edcc61;
+}
+#gridPanel > .n512 {
+  background-color: #99cc00;
+}
+#gridPanel > .n1024 {
+  background-color: #33b5e5;
+}
+#gridPanel > .n2048 {
+  background-color: #0099cc;
+}
+#gridPanel > .n4096 {
+  background-color: #aa66cc;
+}
+#gridPanel > .n8192 {
+  background-color: #9933cc;
+}
+#gridPanel > .n2,
+#gridPanel > .n4 {
+  color: #776e65;
+}
+#gridPanel > .n1024,
+#gridPanel > .n2048,
+#gridPanel > .n4096,
+#gridPanel > .n8192 {
+  font-size: 40px;
+}
+p {
+  width: 580px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 15px;
+  font-family: Arail;
+}
+#gameover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(55, 55, 55, 0.5);
+  display: none;
+}
+#gameover p {
+  background: #fff;
+  width: 300px;
+  height: 200px;
+  line-height: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #edcf72;
+}
+#gameover a {
+  padding: 10px;
+  background: #9f8d77;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
